@@ -17,6 +17,7 @@ button.navbar-toggler span
     height: fit-content;
     width: fit-content;
     float: right;
+    font-size: 14px;
 }
 
 .logoContainer
@@ -49,10 +50,25 @@ button.navbar-toggler span
     color: black;
 }
 
-#collapsibleNavbar i
+#collapsibleNavbar a i
+{
+    font-size: 10px;
+}
+
+#collapsibleNavbar a::after
+{
+    display: none;
+}
+
+#collapsibleNavbar .searchButton
 {
     font-size: 24px;
-    padding: 0 0 0 48px;
+    cursor: pointer;
+}
+
+#collapsibleNavbar .searchButton:hover
+{
+    text-decoration: none;
 }
 
 .dropdown .dropdown-menu 
@@ -97,5 +113,39 @@ button.navbar-toggler span
 
 #collapsibleNavbar .dropdown-item:active
 {
-    background-color: #e9ecef;
+    background-color: white;
+}
+
+#searchbar 
+{
+    position: absolute;
+    z-index: 9999;
+    background-color: white;
+    top: 18px;
+    right: 120px;
+}
+
+#searchbar input
+{
+    width: 400px;
+}
+
+@media only screen and (max-width: 767px) 
+{
+    #collapsibleNavbar a
+    {
+        padding: 5px 0;
+        text-align: right;
+    }
+
+    #searchbar 
+    {
+        top: 172px;
+        left: 20px;
+    }
+
+    #searchbar input
+    {
+        width: 50vw;
+    }
 }
