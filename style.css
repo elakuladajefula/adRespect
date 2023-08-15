@@ -1,36 +1,101 @@
 .navigation.navbar
 {
-    padding: 24px;
+    padding: 24px 89px;
     border: 0;
     margin: 0;
 }
-.navigation .navbar-nav>li>a, .navigation .navbar-nav>li>i
-{
-    padding: 0 0.5vw;
-}
+
 button.navbar-toggler
 {
     width: 50%;
     border: 0;
     padding: 0;
 }
+
 button.navbar-toggler span
 {
     height: fit-content;
     width: fit-content;
     float: right;
 }
+
 .logoContainer
 {
     width: 50%;
 }
+
+.logoContainer img
+{
+    height: 19px;
+}
+
 #collapsibleNavbar ul
 {
     width: fit-content;
     float: right;
     align-items: flex-end;
 }
+
+#collapsibleNavbar li
+{
+    text-wrap: nowrap;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 #collapsibleNavbar a
 {
+    padding: 0 0 0 48px;
     color: black;
+}
+
+#collapsibleNavbar i
+{
+    font-size: 24px;
+    padding: 0 0 0 48px;
+}
+
+.dropdown .dropdown-menu 
+{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown.show .dropdown-menu 
+{
+    max-height: 200px;
+    opacity: 1;
+}
+
+#collapsibleNavbar .dropdown-menu
+{
+    padding: 0;
+    min-width: fit-content;
+}
+
+#collapsibleNavbar .dropdown-menu.show
+{
+    padding: 10px;
+}
+
+#collapsibleNavbar .dropdown-menu a
+{
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    float: right;
+    align-items: flex-end;
+}
+
+#collapsibleNavbar .dropdown-item:active
+{
+    background-color: #e9ecef;
 }
