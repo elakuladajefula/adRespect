@@ -1,0 +1,191 @@
+/* temporary section height */
+#offer
+{
+    min-height: 1000px;
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width: 1468px) 
+{
+    #insta
+    {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1175px)
+{
+    #footer
+    {
+        padding: 80px 100px;
+    }
+}
+
+@media only screen and (max-width: 975px)
+{
+    .footerFirstBottomLeft
+    {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footerFirstBottomRight
+    {
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #footer .phoneNumber
+    {
+        padding-left: 0;
+    }
+
+    .footerSecond
+    {
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 873px)
+{
+    .footerFirstTopLeft
+    {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footerFirstTopRight
+    {
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 790px) 
+{
+    .instaFirst
+    {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .instaSecond
+    {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 20px;
+        text-align: center;
+    }
+    #insta .instaButton
+    {
+        margin-top: 0;
+        margin-left: 42px;
+    }
+}
+
+@media only screen and (max-width: 767px) 
+{
+    #collapsibleNavbar a
+    {
+        padding: 5px 0;
+        text-align: right;
+    }
+
+    #searchbar 
+    {
+        top: 172px;
+        left: 20px;
+    }
+
+    #searchbar input
+    {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 702px)
+{
+    #footer
+    {
+        padding: 40px 50px;
+    }
+}
+
+@media only screen and (max-width: 636px) 
+{
+    #insta .instaButton
+    {
+        margin-left: 10px;
+    }
+
+    .instaMiddle
+    {
+        padding: 60px 50px;
+    }
+}
+
+@media only screen and (max-width: 602px) 
+{
+    #footer
+    {
+        padding: 40px 20px;
+    }
+
+    .footerSecond
+    {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 542px) 
+{
+    #footer .footerButton
+    {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 516px) 
+{
+    #insta .instaButton
+    {
+        margin: 24px 0;
+    }
+
+    #footer .footerButton
+    {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 476px) 
+{
+    .footerSecondLeft
+    {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footerSecondRight
+    {
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 476px) 
+{
+    .footerFirstBottomLeft a
+    {
+        padding-left: 20px;
+    }
+}

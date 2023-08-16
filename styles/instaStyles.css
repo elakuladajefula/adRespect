@@ -1,0 +1,47 @@
+#insta
+{
+    background-color: #F5F0EC;
+    padding: 60px 200px;
+}
+
+.instaMiddle
+{
+    background-color: #1B5B31;
+    padding: 120px 110px;
+    color: #F5F0EC;
+}
+
+.instaFirst
+{
+    font-size: 40px;
+    width: 67%;
+    float: left;
+    padding-top: 9px;
+}
+
+.instaSecond
+{
+    display: inline-block;
+    font-size: 16px;
+    width: 25%;
+    padding-left: 64px;
+}
+
+#insta .instaButton
+{
+    color: #1B5B31;
+    background-color: #F5F0EC;
+    padding: 10px 24px 12px;
+    font-size: 16px;
+    margin-top: 24px;
+    border-radius: 200px;
+}
+
+#insta .instaButton:active:focus
+{
+    outline-color: #1B5B31;
+}
+#insta .instaButton:focus
+{
+    box-shadow: none;
+}

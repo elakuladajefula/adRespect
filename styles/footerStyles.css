@@ -1,0 +1,101 @@
+#footer
+{
+    background-color: #111111;
+    padding: 80px 200px;
+    color: #F5F0EC;
+}
+
+.footerFirstTop
+{
+    font-size: 16px;
+    margin-right: -7px;
+}
+
+.footerFirstTopLeft
+{
+    width: 24%;
+    display: inline-block;
+}
+
+.footerFirstTopRight
+{
+    width: 75%;
+    display: inline-block;
+    text-align: right;
+    font-size: 16px;
+}
+
+#footer .footerButton
+{
+    background-color: #1B5B31;
+    color: #F5F0EC;
+    padding: 12px 24px 14px;
+    border-radius: 200px;
+    margin-left: 24px;
+    font-size: 16px;
+}
+
+#footer .footerButton:active:focus
+{
+    outline-color: #1B5B31;
+}
+
+#footer .footerButton:focus
+{
+    box-shadow: none;
+}
+
+.separator
+{
+    margin: 62px 0;
+}
+
+.footerFirstBottom
+{
+    font-size: 14px;
+}
+
+.footerFirstBottom a
+{
+    padding-left: 48px;
+    color: #F5F0EC;
+}
+
+.footerFirstBottom a:hover
+{
+    color: #1B5B31;
+    text-decoration-line: none;
+}
+
+.footerFirstBottomLeft
+{
+    width: 49%;
+    display: inline-block;
+}
+
+.footerFirstBottomRight
+{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+.footerSecond
+{
+    padding-top: 120px;
+    margin-right: -7px;
+    font-size: 16px;
+}
+
+.footerSecondLeft
+{
+    width: 49%;
+    display: inline-block;
+}
+
+.footerSecondRight
+{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
