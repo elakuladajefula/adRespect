@@ -4,3 +4,8 @@ function toggleSearchbar()
         ? "block" : "none";
     document.getElementById("searchbar").style.display = displayValue;
 }
+
+function closeSearchbar()
+{
+    document.getElementById("searchbar").style.display = "none";
+}
