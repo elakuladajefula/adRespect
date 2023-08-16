@@ -13,48 +13,71 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <nav class="navigation navbar navbar-expand-md sticky-top">
-            <div class="logoContainer">
-                <img src="assets/giarddesign.jpg">
+        <section id="navigation" class="sticky-top">
+            <nav class="navigation navbar navbar-expand-md">
+                <div class="logoContainer">
+                    <img src="assets/giarddesign.jpg">
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon">
+                        <i class="glyphicon glyphicon-menu-hamburger"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Oferta <i class="glyphicon glyphicon-menu-down"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Projekty</a>
+                                <a class="dropdown-item" href="#">Wizualizacje</a>
+                                <a class="dropdown-item" href="#">Realizacje</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">O firmie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Realizacje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontakt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="searchButton navlink glyphicon glyphicon-search" onclick="toggleSearchbar()"></a>
+                        </li>
+                    </ul>
+                </div>  
+            </nav>
+            <div id="searchbar" style="display: none">
+                <form class="form-inline" action="">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Szukaj">
+                    <button class="btn btn-success" type="submit">Szukaj</button>
+                </form>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon">
-                    <i class="glyphicon glyphicon-menu-hamburger"></i>
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav navbar-right">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Oferta <i class="glyphicon glyphicon-menu-down"></i>
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Projekty</a>
-                            <a class="dropdown-item" href="#">Wizualizacje</a>
-                            <a class="dropdown-item" href="#">Realizacje</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">O firmie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Realizacje</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kontakt</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="searchButton navlink glyphicon glyphicon-search" onclick="toggleSearchbar()"></a>
-                    </li>
-                </ul>
-            </div>  
-        </nav>
-        <div id="searchbar" style="display: none">
-            <form class="form-inline" action="">
-                <input class="form-control mr-sm-2" type="text" placeholder="Szukaj">
-                <button class="btn btn-success" type="submit">Szukaj</button>
-              </form>
-        </div>
+        </section>
 
+        <section id="intro"></section>
+
+        <section id="offer"></section>
+
+        <section id="about"></section>
+
+        <section id="realizations"></section>
+        
+        <section id="insta">
+            <div class="instaMiddle">
+                <div class="instaFirst">
+                    Zostańmy w kontakcie! Znajdziesz nas na <b><i>Instagramie</i></b>.
+                </div>
+                <div class="instaSecond">
+                    Śledź nasze najnowsze realizacje!
+                    <button type="button" class="btn instaButton">Instragram</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer"></section>
     </body>
 </html>
