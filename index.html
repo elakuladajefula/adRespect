@@ -5,7 +5,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/navigationStyles.css">
+        <link rel="stylesheet" href="styles/introStyles.css">
+        <link rel="stylesheet" href="styles/offerStyles.css">
         <link rel="stylesheet" href="styles/aboutStyles.css">
+        <link rel="stylesheet" href="styles/realizationsStyles.css">
         <link rel="stylesheet" href="styles/instaStyles.css">
         <link rel="stylesheet" href="styles/footerStyles.css">
         <link rel="stylesheet" href="styles/mobileStyles.css">
@@ -62,16 +65,62 @@
             </div>
         </section>
 
-        <section id="intro"></section>
+        <section id="intro">
+            <div id="slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="slide">
+                            <div class="container-fluid">  
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="textColumn">
+                                            <div>
+                                                <div class="sectionHeader">
+                                                    Nowoczesna aranżacja Twojego ogrodu 
+                                                </div>
+                                                <div class="sectionText">
+                                                    Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres usługz indywidualnym podejściem do każdego projektu.
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn introButtonFirst">
+                                                Skontaktuj się z nami
+                                            </button>
+                                            <button type="button" class="btn introButtonSecond">
+                                                Zobacz nasze realizacje <img src="assets/Vector2.svg">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="photoColumn">
+                                        <img class="aboutPhoto" src="assets/Photo2.png">
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide">
+
+                        </div>
+                    </div>
+                </div>
+                
+                <a class="carousel-control-prev" href="#slider" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#slider" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </section>
 
         <section id="offer"></section>
 
         <section id="about">
             <div class="container-fluid">  
                 <div class="row">
-                        <div class="leftColumn">
-                            <img class="aboutPhoto" src="assets/Photo.png">
-                        </div>
+                    <div class="leftColumn">
+                        <img class="aboutPhoto" src="assets/Photo.png">
+                    </div>
                     <div class="col-lg-6">
                         <div class="rightColumn">
                             <div>
@@ -91,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-              </div>
+            </div>
         </section>
 
         <section id="realizations"></section>
