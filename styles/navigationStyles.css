@@ -65,6 +65,7 @@ button.navbar-toggler span
 {
     font-size: 24px;
     cursor: pointer;
+    padding-left: 48px;
 }
 
 #collapsibleNavbar .searchButton:hover
