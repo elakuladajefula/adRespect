@@ -28,6 +28,37 @@
     }
 }
 
+@media only screen and (max-width: 1067px)
+{
+    #about .leftColumn
+    {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 992px)
+{
+    #about .leftColumn
+    {
+        width: 100%;
+    }
+
+    #about .rightColumn 
+    {
+        padding: 80px;
+    }
+
+    .sectionHeader
+    {
+        max-width: unset;
+    }
+
+    .sectionText 
+    {
+        max-width: unset;
+    }
+}
+
 @media only screen and (max-width: 975px)
 {
     .footerFirstBottomLeft
@@ -173,6 +204,11 @@
 
 @media only screen and (max-width: 476px) 
 {
+    #about .rightColumn 
+    {
+        padding: 40px;
+    }
+
     .footerSecondLeft
     {
         display: block;
@@ -187,10 +223,7 @@
         width: 100%;
         padding-top: 20px;
     }
-}
 
-@media only screen and (max-width: 476px) 
-{
     .footerFirstBottomLeft a
     {
         padding-left: 20px;
