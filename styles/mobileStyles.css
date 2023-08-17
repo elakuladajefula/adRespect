@@ -4,6 +4,13 @@
     min-height: 1000px;
     background-color: aliceblue;
 }
+#realizations
+{
+    min-height: 500px;
+    background-color: aliceblue;
+}
+
+
 
 @media only screen and (max-width: 1468px) 
 {

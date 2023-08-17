@@ -1,0 +1,68 @@
+#about
+{
+    background-color: #1B5B31;
+    color: #F5F0EC;
+}
+
+#about .leftColumn
+{
+    margin-right: 32px;
+    width: 47%;
+}
+
+.aboutPhoto
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#about .rightColumn
+{
+    padding: 135px 92px 135px 113px;
+}
+
+.sectionTitle
+{
+    font-size: 12px;
+    padding-bottom: 16px;
+}
+
+.sectionHeader
+{
+    font-size: 48px;
+    line-height: 1;
+    padding-bottom: 40px;
+    max-width: 240px;
+}
+
+.sectionText
+{
+    font-size: 16px;
+    padding-bottom: 72px;
+    max-width: 490px;
+}
+
+#about .aboutButton 
+{
+    color: #F5F0EC;
+    border-color: #F5F0EC;
+    padding: 12px 22px 14px;
+    border-radius: 200px;
+    font-size: 16px;
+}
+
+#about .aboutButton:active:focus
+{
+    outline-color:  #F5F0EC;
+}
+
+#about .aboutButton:focus
+{
+    box-shadow: none;
+}
+
+.aboutButton img
+{
+    padding-left: 4px;
+}
