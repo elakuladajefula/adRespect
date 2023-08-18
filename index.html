@@ -23,7 +23,7 @@
         <section id="navigation" class="sticky-top">
             <nav class="navigation navbar navbar-expand-md">
                 <div class="logoContainer">
-                    <img src="assets/giarddesign.jpg">
+                    <a href="#intro"><img src="assets/giarddesign.jpg"></a>
                 </div>
                 <button class="navbar-toggler" onclick="closeSearchbar()" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon">
@@ -37,19 +37,19 @@
                                 Oferta <i class="glyphicon glyphicon-menu-down"></i>
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Projekty</a>
-                                <a class="dropdown-item" href="#">Wizualizacje</a>
-                                <a class="dropdown-item" href="#">Realizacje</a>
+                                <a class="dropdown-item" href="#offer" onclick="toggleSlider('projects')">Projekty</a>
+                                <a class="dropdown-item" href="#offer" onclick="toggleSlider('visualizations')">Wizualizacje</a>
+                                <a class="dropdown-item" href="#offer" onclick="toggleSlider('realizationsSlider')">Realizacje</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">O firmie</a>
+                            <a class="nav-link" href="#about">O firmie</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Realizacje</a>
+                            <a class="nav-link" href="#realizations">Realizacje</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Kontakt</a>
+                            <a class="nav-link" href="#insta">Kontakt</a>
                         </li>
                         <li class="nav-item">
                             <img class="searchButton" src="assets/Icon 01.svg" onclick="toggleSearchbar()">
@@ -85,9 +85,9 @@
                                             <button type="button" class="btn introButtonFirst">
                                                 Skontaktuj się z nami
                                             </button>
-                                            <button type="button" class="btn introButtonSecond">
+                                            <a href="#realizations"><button type="button" class="btn introButtonSecond">
                                                 Zobacz nasze realizacje <img src="assets/Vector2.svg">
-                                            </button>
+                                            </button></a>
                                         </div>
                                     </div>
                                     <div class="photoColumn">
@@ -114,9 +114,9 @@
                                             <button type="button" class="btn introButtonFirst">
                                                 Skontaktuj się z nami
                                             </button>
-                                            <button type="button" class="btn introButtonSecond">
+                                            <a href="#realizations"><button type="button" class="btn introButtonSecond">
                                                 Zobacz nasze realizacje <img src="assets/Vector2.svg">
-                                            </button>
+                                            </button></a>
                                         </div>
                                     </div>
                                     <div class="photoColumn">
@@ -312,7 +312,7 @@
                 </div>
                 <div class="instaSecond">
                     Śledź nasze najnowsze realizacje!
-                    <button type="button" class="btn instaButton">Instragram</button>
+                    <a href="https://instagram.com"><button type="button" class="btn instaButton">Instragram</button></a>
                 </div>
             </div>
         </section>

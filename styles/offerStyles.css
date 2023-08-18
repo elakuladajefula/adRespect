@@ -90,13 +90,6 @@
     z-index: 10000;
 }
 
-.slide
-{
-    display: flex;
-    align-items: center;
-
-}
-
 .slidePhoto
 {
     display: block;
