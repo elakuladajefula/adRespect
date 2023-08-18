@@ -199,7 +199,29 @@
                 </div>
             </div>
             <div id="projects" style="display: none">
-
+                <div id="projectsSlides" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/Photo.png">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/Photo2.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrowsContainer">
+                        <a class="arrowLeft carousel-control-prev" href="#projectsSlides" data-slide="prev">
+                            <img src="assets/arrowLeft.svg">
+                        </a>
+                        <a class="carousel-control-next" href="#projectsSlides" data-slide="next">
+                            <img src="assets/arrowRight.svg">
+                        </a>
+                    </div>
+                    <a id="projectsSliderClose" class="glyphicon glyphicon-remove" style="display: none" onclick="toggleSlider('projects')">
+                </div>
             </div>
             <div id="visualizations" style="display: none">
 

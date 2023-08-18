@@ -15,4 +15,5 @@ function toggleSlider(slider)
     let displayValue = (document.getElementById(slider).style.display === "none") 
         ? "block" : "none";
     document.getElementById(slider).style.display = displayValue;
+    document.getElementById(slider + "SliderClose").style.display = displayValue;
 }
