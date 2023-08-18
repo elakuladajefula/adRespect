@@ -152,6 +152,22 @@
 
 @media only screen and (max-width: 790px) 
 {
+    .arrowsContainer
+    {
+        padding: 12px 16px;
+    }
+    
+    .arrowsContainer a
+    {
+        height: 24px;
+        width: 24px;
+    }
+    
+    .arrowLeft
+    {
+        margin-right: 16px;
+    }
+
     .instaFirst
     {
         width: 100%;
