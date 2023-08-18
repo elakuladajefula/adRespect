@@ -9,3 +9,10 @@ function closeSearchbar()
 {
     document.getElementById("searchbar").style.display = "none";
 }
+
+function toggleSlider(slider)
+{
+    let displayValue = (document.getElementById(slider).style.display === "none") 
+        ? "block" : "none";
+    document.getElementById(slider).style.display = displayValue;
+}
