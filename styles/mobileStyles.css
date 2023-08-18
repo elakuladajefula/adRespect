@@ -1,9 +1,4 @@
 /* temporary section height */
-#offer
-{
-    min-height: 1000px;
-    background-color: aliceblue;
-}
 #realizations
 {
     min-height: 500px;
@@ -49,6 +44,11 @@
     #about .leftColumn
     {
         margin-right: 0;
+    }
+
+    .offerCol
+    {
+        padding: 24px 20px;
     }
 }
 
@@ -102,6 +102,24 @@
         height: auto;
         width: 50%;
     }
+
+    .col-lg-4
+    {
+        margin: 20px 0;
+    }
+
+    .columnText
+    {
+        max-width: unset;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .offerCol
+    {
+        padding: 48px 40px;
+    }
 }
 
 @media only screen and (max-width: 975px)
@@ -134,6 +152,11 @@
 
 @media only screen and (max-width: 873px)
 {
+    .offerText 
+    {
+        padding: 0 100px 60px;
+    }
+
     .footerFirstTopLeft
     {
         display: block;
@@ -265,6 +288,16 @@
 
 @media only screen and (max-width: 516px) 
 {
+    .offerText 
+    {
+        padding: 0 60px 60px;
+    }
+
+    .offerColumns 
+    {
+        padding: 0px 10px;
+    }
+
     #insta .instaButton
     {
         margin: 24px 0;
@@ -301,5 +334,18 @@
     .footerFirstBottomLeft a
     {
         padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 420px) 
+{
+    .offerText 
+    {
+        padding: 0 40px 60px;
+    }
+
+    .offerCol
+    {
+        padding: 24px 20px;
     }
 }

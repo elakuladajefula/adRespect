@@ -1,0 +1,81 @@
+#offer
+{
+    padding: 120px 0 160px;
+    background-color: #F5F0EC;
+}
+
+.offerText 
+{
+    padding: 0 200px 96px;
+}
+
+#offer .sectionHeader 
+{
+    max-width: 680px;
+    padding-bottom: 32px;
+}
+
+#offer .sectionText
+{
+    max-width: 680px;
+    padding-bottom: 0;
+}
+
+.offerColumns
+{
+    padding: 0 56px;
+}
+
+.offerCol
+{
+    margin: 0 17px;
+    padding: 48px 40px;
+    background-color: white;
+    border-radius: 28px;
+    height: 100%;
+}
+
+.offerCol:hover
+{
+    background-color: #DCC1AB;
+}
+
+.columnHeader
+{
+    padding: 32px 0 12px;
+    font-size: 28px;
+}
+
+.columnText
+{
+    font-size: 14px;
+    padding-bottom: 63px;
+    max-width: 300px;
+}
+
+#offer .columnButton
+{
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    border-bottom-style: solid;
+    border-bottom-color: #1B5B31;
+    border-bottom-width: 2px;
+    font-size: 16px;
+    color: #1B5B31;
+}
+
+#offer .columnButton:active:focus
+{
+    outline: none;
+}
+
+#offer .columnButton:focus
+{
+    box-shadow: none;
+}
+
+.columnButton img
+{
+    padding-left: 4px;
+}
