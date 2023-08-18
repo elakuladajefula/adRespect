@@ -80,17 +80,44 @@
     padding-left: 4px;
 }
 
-#projects
+.sliderBackground
 {
-    
+    position: fixed;
+    background-color: rgba(1, 1, 1, 0.8);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
 }
 
-#visualizations
+.slide
 {
-    
+    display: flex;
+    align-items: center;
+
 }
 
-#realizationsSlider
+.slidePhoto
 {
-    
+    display: block;
+    margin: auto;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+#offer .sliderClose
+{
+    color: #F5F0EC;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+}
+
+#offer .sliderClose:hover
+{
+    text-decoration: none;
+    color: #DCC1AB;
+    cursor: pointer;
 }
