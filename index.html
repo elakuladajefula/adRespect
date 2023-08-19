@@ -38,9 +38,9 @@
                                 Oferta <i class="glyphicon glyphicon-menu-down"></i>
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#offer" onclick="toggleSlider('projects')">Projekty</a>
-                                <a class="dropdown-item" href="#offer" onclick="toggleSlider('visualizations')">Wizualizacje</a>
-                                <a class="dropdown-item" href="#offer" onclick="toggleSlider('realizationsSlider')">Realizacje</a>
+                                <a class="dropdown-item" href="#offer" onclick="toggleSlider('projects', '')">Projekty</a>
+                                <a class="dropdown-item" href="#offer" onclick="toggleSlider('visualizations', '')">Wizualizacje</a>
+                                <a class="dropdown-item" href="#offer" onclick="toggleSlider('realizationsSlider', '')">Realizacje</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -155,7 +155,7 @@
                 <div class="container-fluid">  
                     <div class="row">
                         <div class="col-lg-4">
-                            <div class="offerCol" onclick="toggleSlider('projects')">
+                            <div class="offerCol" onclick="toggleSlider('projects', '')">
                                 <img src="assets/pencil.svg">
                                 <div class="columnHeader">
                                     Projekty
@@ -169,7 +169,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="offerCol" onclick="toggleSlider('visualizations')">
+                            <div class="offerCol" onclick="toggleSlider('visualizations', '')">
                                 <img src="assets/eye.svg">
                                 <div class="columnHeader">
                                     Wizualizacje
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="offerCol" onclick="toggleSlider('realizationsSlider')">
+                            <div class="offerCol" onclick="toggleSlider('realizationsSlider', '')">
                                 <img src="assets/stars.svg">
                                 <div class="columnHeader">
                                     Realizacje
@@ -221,7 +221,7 @@
                             <img src="assets/arrowRight.svg">
                         </a>
                     </div>
-                    <a id="projectsSliderClose" class="sliderClose glyphicon glyphicon-remove" style="display: none" onclick="toggleSlider('projects')"></a>
+                    <a id="projectsSliderClose" class="sliderClose glyphicon glyphicon-remove" style="display: none" onclick="toggleSlider('projects', '')"></a>
                 </div>
             </div>
             <div id="visualizations" class="sliderBackground" style="display: none">
@@ -246,7 +246,7 @@
                             <img src="assets/arrowRight.svg">
                         </a>
                     </div>
-                    <a id="visualizationsSliderClose" class="sliderClose glyphicon glyphicon-remove" style="display: none" onclick="toggleSlider('visualizations')"></a>
+                    <a id="visualizationsSliderClose" class="sliderClose glyphicon glyphicon-remove" style="display: none" onclick="toggleSlider('visualizations', '')"></a>
                 </div>
             </div>
             <div id="realizationsSlider" class="sliderBackground" style="display: none">
@@ -271,7 +271,7 @@
                             <img src="assets/arrowRight.svg">
                         </a>
                     </div>
-                    <a id="realizationsSliderSliderClose" class="sliderClose glyphicon glyphicon-remove" style="display: none" onclick="toggleSlider('realizationsSlider')"></a>
+                    <a id="realizationsSliderSliderClose" class="sliderClose glyphicon glyphicon-remove" style="display: none" onclick="toggleSlider('realizationsSlider', '')"></a>
                 </div>
             </div>
         </section>
@@ -316,64 +316,169 @@
             <div id="gallery" class="gallery">
                 <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": ".grid-item" }'>
                     <div class="grid-item">
-                        <img src="assets/1.jpg" alt="">
+                        <img src="assets/1.jpg" alt="" onclick="toggleSlider('gallerySlider', '1')">
                     </div>
                     <div class="grid-item middle">
-                        <img src="assets/2.jpg" alt="">
+                        <img src="assets/2.jpg" alt="" onclick="toggleSlider('gallerySlider', '2')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/3.jpg" alt="">
+                        <img src="assets/3.jpg" alt="" onclick="toggleSlider('gallerySlider', '3')">
                     </div>
                     <div class="grid-item middle">
-                        <img src="assets/4.jpg" alt="">
+                        <img src="assets/4.jpg" alt="" onclick="toggleSlider('gallerySlider', '4')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/6.jpg" alt="">
+                        <img src="assets/6.jpg" alt="" onclick="toggleSlider('gallerySlider', '5')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/5.jpg" alt="">
+                        <img src="assets/5.jpg" alt="" onclick="toggleSlider('gallerySlider', '6')">
                     </div>
                     <div class="grid-item middle">
-                        <img src="assets/7.jpg" alt="">
+                        <img src="assets/7.jpg" alt="" onclick="toggleSlider('gallerySlider', '7')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/8.jpg" alt="">
+                        <img src="assets/8.jpg" alt="" onclick="toggleSlider('gallerySlider', '8')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/9.jpg" alt="">
+                        <img src="assets/9.jpg" alt="" onclick="toggleSlider('gallerySlider', '9')">
                     </div>
                     <div class="grid-item middle">
-                        <img src="assets/1.jpg" alt="">
+                        <img src="assets/1.jpg" alt="" onclick="toggleSlider('gallerySlider', '10')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/2.jpg" alt="">
+                        <img src="assets/2.jpg" alt="" onclick="toggleSlider('gallerySlider', '11')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/3.jpg" alt="">
+                        <img src="assets/3.jpg" alt="" onclick="toggleSlider('gallerySlider', '12')">
                     </div>
                     <div class="grid-item middle">
-                        <img src="assets/4.jpg" alt="">
+                        <img src="assets/4.jpg" alt="" onclick="toggleSlider('gallerySlider', '13')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/6.jpg" alt="">
+                        <img src="assets/6.jpg" alt="" onclick="toggleSlider('gallerySlider', '14')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/5.jpg" alt="">
+                        <img src="assets/5.jpg" alt="" onclick="toggleSlider('gallerySlider', '15')">
                     </div>
                     <div class="grid-item middle">
-                        <img src="assets/7.jpg" alt="">
+                        <img src="assets/7.jpg" alt="" onclick="toggleSlider('gallerySlider', '16')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/8.jpg" alt="">
+                        <img src="assets/8.jpg" alt="" onclick="toggleSlider('gallerySlider', '17')">
                     </div>
                     <div class="grid-item">
-                        <img src="assets/9.jpg" alt="">
+                        <img src="assets/9.jpg" alt="" onclick="toggleSlider('gallerySlider', '18')">
                     </div>
                 </div>
             </div>
             <button id="showMore" type="button" class="btn galleryButton" onclick="showMore()">
                 Rozwiń <img src="assets/blackArrowDown.svg">
             </button>
+            <div id="gallerySlider" class="sliderBackground" style="display: none">
+                <div id="gallerySlides" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div id="slide1" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/1.jpg">
+                            </div>
+                        </div>
+                        <div id="slide2" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/2.jpg">
+                            </div>
+                        </div>
+                        <div id="slide3" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/3.jpg">
+                            </div>
+                        </div>
+                        <div id="slide4" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/4.jpg">
+                            </div>
+                        </div>
+                        <div id="slide5" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/6.jpg">
+                            </div>
+                        </div>
+                        <div id="slide6" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/5.jpg">
+                            </div>
+                        </div>
+                        <div id="slide7" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/7.jpg">
+                            </div>
+                        </div>
+                        <div id="slide8" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/8.jpg">
+                            </div>
+                        </div>
+                        <div id="slide9" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/9.jpg">
+                            </div>
+                        </div>
+                        <div id="slide10" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/1.jpg">
+                            </div>
+                        </div>
+                        <div id="slide11" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/2.jpg">
+                            </div>
+                        </div>
+                        <div id="slide12" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/3.jpg">
+                            </div>
+                        </div>
+                        <div id="slide13" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/4.jpg">
+                            </div>
+                        </div>
+                        <div id="slide14" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/6.jpg">
+                            </div>
+                        </div>
+                        <div id="slide15" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/5.jpg">
+                            </div>
+                        </div>
+                        <div id="slide16" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/7.jpg">
+                            </div>
+                        </div>
+                        <div id="slide17" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/8.jpg">
+                            </div>
+                        </div>
+                        <div id="slide18" class="carousel-item">
+                            <div class="slide">
+                                <img class="slidePhoto" src="assets/9.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrowsContainer">
+                        <a class="arrowLeft carousel-control-prev" href="#gallerySlides" data-slide="prev">
+                            <img src="assets/arrowLeft.svg">
+                        </a>
+                        <a class="carousel-control-next" href="#gallerySlides" data-slide="next">
+                            <img src="assets/arrowRight.svg">
+                        </a>
+                    </div>
+                    <a id="gallerySliderSliderClose" class="sliderClose glyphicon glyphicon-remove" style="display: none" onclick="toggleSlider('gallerySlider', '0')"></a>
+                </div>
+            </div>
         </section>
         
         <section id="insta">

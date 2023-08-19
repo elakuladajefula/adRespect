@@ -86,3 +86,20 @@
 {
     padding-left: 4px;
 }
+
+#realizations .sliderClose
+{
+    color: #F5F0EC;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+}
+
+#realizations .sliderClose:hover
+{
+    text-decoration: none;
+    color: #DCC1AB;
+    cursor: pointer;
+}
