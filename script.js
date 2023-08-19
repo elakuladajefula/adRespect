@@ -17,3 +17,10 @@ function toggleSlider(slider)
     document.getElementById(slider).style.display = displayValue;
     document.getElementById(slider + "SliderClose").style.display = displayValue;
 }
+
+function showMore()
+{
+    document.getElementById("gallery").style.height = "auto";
+    document.getElementById("gallery").classList.add("galleryFull");
+    document.getElementById("showMore").style.display = "none";
+}

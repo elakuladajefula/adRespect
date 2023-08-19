@@ -27,6 +27,13 @@
     position: relative;
     -webkit-mask-image: linear-gradient(#DCC1AB, transparent);
     mask-image: linear-gradient(#DCC1AB, transparent);
+    height: 1519px;
+}
+
+.galleryFull
+{
+    -webkit-mask-image: none;
+    mask-image: none;
 }
 
 .grid:after 
