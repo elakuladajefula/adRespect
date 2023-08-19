@@ -34,7 +34,7 @@ function toggleSlider(slider, id)
 
 function showMore()
 {
-    document.getElementById("gallery").style.height = "auto";
-    document.getElementById("gallery").classList.add("galleryFull");
     document.getElementById("showMore").style.display = "none";
+    document.getElementById("gallery0").style.display = "none";
+    document.getElementById("gallery").style.display = "block";
 }
