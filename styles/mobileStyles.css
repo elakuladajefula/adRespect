@@ -163,6 +163,11 @@
         padding: 0 100px 60px;
     }
 
+    #realizations .galleryButton 
+    {
+        left: 44%;
+    }
+
     .footerFirstTopLeft
     {
         display: block;
@@ -274,6 +279,11 @@
 
 @media only screen and (max-width: 602px) 
 {
+    #realizations .galleryButton 
+    {
+        left: 42%;
+    }
+
     #footer
     {
         padding: 40px 20px;
@@ -336,6 +346,11 @@
         padding: 40px;
     }
 
+    #realizations .galleryButton 
+    {
+        left: 38%;
+    }
+
     .footerSecondLeft
     {
         display: block;
@@ -367,5 +382,10 @@
     .offerCol
     {
         padding: 24px 20px;
+    }
+
+    #realizations .galleryButton 
+    {
+        left: 36%;
     }
 }
