@@ -41,6 +41,21 @@
     {
         padding: 24px 20px;
     }
+
+    .realizationsMiddle 
+    {
+        padding: 40px 80px;
+    }
+
+    .middle 
+    {
+        padding: 0;
+    }
+
+    .grid-item 
+    {
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 992px)
@@ -228,6 +243,16 @@
 
 @media only screen and (max-width: 702px)
 {
+    .realizationsMiddle 
+    {
+        padding: 40px 40px;
+    }
+
+    .grid-item 
+    {
+        width: 50%;
+    }
+    
     #footer
     {
         padding: 40px 50px;

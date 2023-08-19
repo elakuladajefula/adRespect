@@ -40,7 +40,11 @@
 {
     width: 33.333%;
     margin-bottom: 43px;
-    padding-right: 43px;
+}
+
+.middle 
+{
+    padding: 0 43px;
 }
 
 .grid-item img 
@@ -57,7 +61,7 @@
     border-radius: 200px;
     font-size: 16px;
     position: absolute;
-    top: 985%;
+    top: 800%;
     left: 46%;
 }
 
