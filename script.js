@@ -34,7 +34,29 @@ function toggleSlider(slider, id)
 
 function showMore()
 {
+    var $grid = $('.grid').masonry(
+    {
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-item',
+    });
+    $grid.imagesLoaded().progress( function() 
+    {
+        $grid.masonry('layout');
+    });
     document.getElementById("showMore").style.display = "none";
     document.getElementById("gallery0").style.display = "none";
     document.getElementById("gallery").style.display = "block";
 }
+
+window.onload = (event) => 
+{
+    var $grid = $('.grid0').masonry(
+    {
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-item',
+    });
+    $grid.imagesLoaded().progress( function() 
+    {
+        $grid.masonry('layout');
+    });
+};
